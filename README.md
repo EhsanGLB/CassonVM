@@ -1,8 +1,9 @@
 # CassonVM
-This is a library for Ameenuddin Casson model written based on foam-extend-4.1.
+This is a library for Casson viscosity model written based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
+$$ {\nu} = {\left({ \sqrt{\tau_0 \over \dot{gamma}} + \sqrt{m}   }right)}^2 $$
 
 
 ## Installation
