@@ -30,6 +30,9 @@ Description
 SourceFiles
     CassonVM.C
 
+Author
+    Ehsan Golab, SUT. All rights reserved.
+
 \*---------------------------------------------------------------------------*/
 
 #ifndef CassonVM_H
