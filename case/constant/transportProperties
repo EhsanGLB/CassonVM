@@ -1,0 +1,30 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.1                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+transportModel  CassonVM;
+
+nu              nu [0 2 -1 0 0 0 0] 1;
+
+CassonVMCoeffs//unavailable
+{
+    m				m [ 0 2 -1 0 0 0 0 ] 3.934986e-6;
+    tau0			tau0 [ 0 2 -2 0 0 0 0 ] 2.9032e-6;
+    nuMax			nuMax [ 0 2 -1 0 0 0 0 ] 2.83e-6;
+    nuMin			nuMin [ 0 2 -1 0 0 0 0 ] 1.18e-6;
+}
+
+
+// ************************************************************************* //
