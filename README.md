@@ -3,7 +3,7 @@ This is a library for Casson viscosity model written based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
-$$ {\nu} = \left({ \sqrt{\tau_0 \over \dot{gamma}} + \sqrt{m}   } right) $$
+$$ {\nu} = \left({ \sqrt{\tau_0 \over \dot{gamma}} + \sqrt{m}   } \right) $$
 
 
 ## Installation
